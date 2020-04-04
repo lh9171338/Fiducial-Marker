@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVision_Line.a  CMakeFiles/Vision_Line.dir/JMD_Vision_Line.cpp.o
+/usr/bin/ranlib libVision_Line.a

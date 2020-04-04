@@ -1,0 +1,2 @@
+/usr/bin/ar qc libChromaTag_Decode.a  CMakeFiles/ChromaTag_Decode.dir/JMD_ChromaTag_Decode.cpp.o
+/usr/bin/ranlib libChromaTag_Decode.a

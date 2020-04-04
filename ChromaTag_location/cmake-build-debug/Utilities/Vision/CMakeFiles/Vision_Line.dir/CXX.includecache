@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Utilities/JMD_Utils_Defines.hpp
+
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Line.cpp
+JMD_Vision_Line.hpp
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Line.hpp
+
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Line.hpp
+iostream
+-
+cmath
+-
+vector
+-
+JMD_Vision_Point.hpp
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Point.hpp
+JMD_Utils_Defines.hpp
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Utils_Defines.hpp
+
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Point.hpp
+cmath
+-
+iostream
+-
+JMD_Utils_Defines.hpp
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Utils_Defines.hpp
+

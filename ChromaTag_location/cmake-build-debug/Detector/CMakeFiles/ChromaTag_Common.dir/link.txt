@@ -1,0 +1,2 @@
+/usr/bin/ar qc libChromaTag_Common.a  CMakeFiles/ChromaTag_Common.dir/JMD_ChromaTag_Common.cpp.o
+/usr/bin/ranlib libChromaTag_Common.a

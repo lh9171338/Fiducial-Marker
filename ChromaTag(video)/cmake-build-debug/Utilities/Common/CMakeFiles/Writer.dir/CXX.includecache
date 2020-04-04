@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lihao/workspace/opencv/ChromaTag(video)/Utilities/Common/JMD_Utils_Writer.cpp
+JMD_Utils_Writer.hpp
+/home/lihao/workspace/opencv/ChromaTag(video)/Utilities/Common/JMD_Utils_Writer.hpp
+
+/home/lihao/workspace/opencv/ChromaTag(video)/Utilities/Common/JMD_Utils_Writer.hpp
+string
+-
+sstream
+-
+fstream
+-
+iostream
+-
+iomanip
+-
+utility
+-
+vector
+-
+cstdlib
+-
+algorithm
+-
+

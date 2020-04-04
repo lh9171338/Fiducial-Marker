@@ -1,0 +1,2 @@
+/usr/bin/ar qc libObject.a  CMakeFiles/Object.dir/JMD_Utils_Object.cpp.o
+/usr/bin/ranlib libObject.a

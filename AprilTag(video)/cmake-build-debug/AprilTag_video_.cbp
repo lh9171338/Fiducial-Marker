@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AprilTag_video_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apriltag">
+				<Option output="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/libapriltag.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/common"/>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/apriltag"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 apriltag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apriltag/fast">
+				<Option output="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/libapriltag.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/common"/>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/apriltag"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 apriltag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AprilTag_video_">
+				<Option output="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/AprilTag_video_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/common"/>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/apriltag"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 AprilTag_video_"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AprilTag_video_/fast">
+				<Option output="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/AprilTag_video_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/common"/>
+					<Add directory="/home/lihao/workspace/opencv/AprilTag(video)/apriltag"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 AprilTag_video_/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/AprilTag(video)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/apriltag.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/apriltag.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/apriltag_pose.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/apriltag_pose.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/apriltag_quad_thresh.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag16h5.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag16h5.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag25h9.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag25h9.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag36h11.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tag36h11.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCircle21h7.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCircle21h7.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCircle49h12.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCircle49h12.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCustom48h12.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagCustom48h12.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagStandard41h12.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagStandard41h12.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagStandard52h13.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/apriltag/tagStandard52h13.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/g2d.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/g2d.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/getopt.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/getopt.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/homography.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/homography.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8x3.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8x3.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8x4.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/image_u8x4.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/matd.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/matd.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pam.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pam.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pjpeg-idct.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pjpeg.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pjpeg.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pnm.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/pnm.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/string_util.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/string_util.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/svd22.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/svd22.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/time_util.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/time_util.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/unionfind.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/unionfind.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/workerpool.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/workerpool.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zarray.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zarray.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zhash.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zhash.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zmaxheap.c">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/common/zmaxheap.h">
+			<Option target="apriltag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/main.cpp">
+			<Option target="AprilTag_video_"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/AprilTag(video)/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

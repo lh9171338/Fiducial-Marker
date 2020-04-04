@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Timer.cpp
+JMD_Utils_Timer.hpp
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Timer.hpp
+
+/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Timer.hpp
+cstddef
+-
+stdint.h
+-
+sys/time.h
+-
+time.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVision_Image.a  CMakeFiles/Vision_Image.dir/JMD_Vision_Image.cpp.o
+/usr/bin/ranlib libVision_Image.a

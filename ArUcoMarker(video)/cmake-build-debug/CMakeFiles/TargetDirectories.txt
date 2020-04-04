@@ -1,0 +1,3 @@
+/home/lihao/workspace/opencv/ArUcoMarker(video)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lihao/workspace/opencv/ArUcoMarker(video)/cmake-build-debug/CMakeFiles/ArUcoMarker_video_.dir
+/home/lihao/workspace/opencv/ArUcoMarker(video)/cmake-build-debug/CMakeFiles/edit_cache.dir

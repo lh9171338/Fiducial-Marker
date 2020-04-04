@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVision_Point.a  CMakeFiles/Vision_Point.dir/JMD_Vision_Point.cpp.o
+/usr/bin/ranlib libVision_Point.a

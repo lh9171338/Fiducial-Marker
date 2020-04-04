@@ -1,0 +1,2 @@
+#JMD_LCM_Image_Type
+add_library(JMD_LCM_Image_Type JMD_LCM_Image_Type.c)

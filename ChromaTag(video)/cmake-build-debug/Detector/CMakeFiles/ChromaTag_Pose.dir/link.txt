@@ -1,0 +1,2 @@
+/usr/bin/ar qc libChromaTag_Pose.a  CMakeFiles/ChromaTag_Pose.dir/JMD_ChromaTag_Pose.cpp.o
+/usr/bin/ranlib libChromaTag_Pose.a

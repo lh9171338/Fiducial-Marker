@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ChromaTag"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\Utilities\;CMake Files\Utilities\Common\;CMake Files\Utilities\LCM_Types\;CMake Files\Utilities\Math\;CMake Files\Utilities\Vision\;CMake Files\Detector\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/ChromaTag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChromaTag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/ChromaTag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChromaTag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Timer">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Timer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Timer/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Timer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Writer">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libWriter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Writer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Writer/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libWriter.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Writer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Options">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libOptions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Options"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Options/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libOptions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Options/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Object">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libObject.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Object"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Object/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/libObject.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 Object/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JMD_LCM_Image_Type">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/libJMD_LCM_Image_Type.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 JMD_LCM_Image_Type"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JMD_LCM_Image_Type/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/libJMD_LCM_Image_Type.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 JMD_LCM_Image_Type/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/LCM_Types/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Math">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/libMath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 Math"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Math/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/libMath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 Math/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Line">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Line.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Line"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Line/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Line.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Line/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Point">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Point.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Point"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Point/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Point.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Point/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Process">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Process.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Process"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Process/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Process.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Process/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Image">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Image"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vision_Image/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/libVision_Image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 Vision_Image/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Utilities/Vision/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Detect">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Detect.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Detect"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Detect/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Detect.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Detect/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Common">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Common"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Common/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Common/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Decode">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Decode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Decode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Decode/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Decode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Decode/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Pose">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Pose.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Pose"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaTag_Pose/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libChromaTag_Pose.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 ChromaTag_Pose/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JMD_ChromaTag">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libJMD_ChromaTag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 JMD_ChromaTag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JMD_ChromaTag/fast">
+				<Option output="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/libJMD_ChromaTag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_FOUND"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision"/>
+					<Add directory="/home/lihao/workspace/opencv/ChromaTag_location/Detector"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 JMD_ChromaTag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/ChromaTag_location/cmake-build-debug/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag.cpp">
+			<Option target="JMD_ChromaTag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag.hpp">
+			<Option target="JMD_ChromaTag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Common.cpp">
+			<Option target="ChromaTag_Common"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Common.hpp">
+			<Option target="ChromaTag_Common"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Decode.cpp">
+			<Option target="ChromaTag_Decode"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Decode.hpp">
+			<Option target="ChromaTag_Decode"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Detect.cpp">
+			<Option target="ChromaTag_Detect"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Detect.hpp">
+			<Option target="ChromaTag_Detect"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Pose.cpp">
+			<Option target="ChromaTag_Pose"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/JMD_ChromaTag_Pose.hpp">
+			<Option target="ChromaTag_Pose"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Object.cpp">
+			<Option target="Object"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Object.hpp">
+			<Option target="Object"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Options.cpp">
+			<Option target="Options"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Options.hpp">
+			<Option target="Options"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Timer.cpp">
+			<Option target="Timer"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Timer.hpp">
+			<Option target="Timer"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Writer.cpp">
+			<Option target="Writer"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/JMD_Utils_Writer.hpp">
+			<Option target="Writer"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types/JMD_LCM_Image_Type.c">
+			<Option target="JMD_LCM_Image_Type"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types/JMD_LCM_Image_Type.h">
+			<Option target="JMD_LCM_Image_Type"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math/JMD_Math_Common.cpp">
+			<Option target="Math"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math/JMD_Math_Common.hpp">
+			<Option target="Math"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Image.cpp">
+			<Option target="Vision_Image"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Image.hpp">
+			<Option target="Vision_Image"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Line.cpp">
+			<Option target="Vision_Line"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Line.hpp">
+			<Option target="Vision_Line"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Point.cpp">
+			<Option target="Vision_Point"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Point.hpp">
+			<Option target="Vision_Point"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Process.cpp">
+			<Option target="Vision_Process"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/JMD_Vision_Process.hpp">
+			<Option target="Vision_Process"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/main.cpp">
+			<Option target="ChromaTag"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\Common\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/LCM_Types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\LCM_Types\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\Math\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Utilities/Vision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\Vision\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/ChromaTag_location/Detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Detector\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

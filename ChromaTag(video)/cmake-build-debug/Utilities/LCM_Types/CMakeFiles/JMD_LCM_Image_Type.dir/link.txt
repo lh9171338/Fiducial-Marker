@@ -1,0 +1,2 @@
+/usr/bin/ar qc libJMD_LCM_Image_Type.a  CMakeFiles/JMD_LCM_Image_Type.dir/JMD_LCM_Image_Type.c.o
+/usr/bin/ranlib libJMD_LCM_Image_Type.a

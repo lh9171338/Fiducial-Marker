@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVision_Process.a  CMakeFiles/Vision_Process.dir/JMD_Vision_Process.cpp.o
+/usr/bin/ranlib libVision_Process.a

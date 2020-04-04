@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWriter.a  CMakeFiles/Writer.dir/JMD_Utils_Writer.cpp.o
+/usr/bin/ranlib libWriter.a
