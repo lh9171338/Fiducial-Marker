@@ -5,12 +5,13 @@
 - ArUco marker
 ![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/ArUcoMarker(video)/result/result-001.jpg)
 ![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/ArUcoMarker(video)/result/result-002.jpg)
+![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/ArUcoMarker(video)/result/result-003.jpg)
 - AprilTag
 ![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/AprilTag(video)/result/result-001.jpg)
 ![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/AprilTag(video)/result/result-002.jpg)
+![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/AprilTag(video)/result/result-003.jpg)
 - ChromaTag
 ![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/ChromaTag(video)/result/result-001.jpg)
-![image](https://github.com/lh9171338/Fiducial-Marker/blob/master/ChromaTag(video)/result/result-002.jpg)
 
 # 3. More Resources
 - [Github Link](https://github.com/lh9171338/Outline)
